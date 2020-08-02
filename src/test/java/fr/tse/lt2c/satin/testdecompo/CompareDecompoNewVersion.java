@@ -184,7 +184,7 @@ public class CompareDecompoNewVersion {
 	}
 
 	public static String litUneLigne() {
-		System.out.println("Appuyez sur entrée pour continuer");
+		System.out.println("Appuyez sur entrÃ©e pour continuer");
 		BufferedReader reader = new BufferedReader(new InputStreamReader(
 				System.in));
 		try {

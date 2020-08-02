@@ -31,7 +31,7 @@ public class TestIterativeRemoval {
 
 	/**
 	 * 
-	 * @return une ligne entrée au clavier
+	 * @return une ligne entrÃ©e au clavier
 	 */
 	public static String litUneLigne() {
 		BufferedReader reader = new BufferedReader(new InputStreamReader(
@@ -40,7 +40,7 @@ public class TestIterativeRemoval {
 			return reader.readLine();
 		} catch (IOException e) {
 			System.err.println("Erreur de lecture I/O, fermeture du programme");
-			// A éviter, mais vous verrez les exceptions dans un prochain TP
+			// A Ã©viter, mais vous verrez les exceptions dans un prochain TP
 			return null;
 		}
 	}
