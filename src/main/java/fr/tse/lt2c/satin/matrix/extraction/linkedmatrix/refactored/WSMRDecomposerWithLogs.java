@@ -18,7 +18,7 @@ import fr.tse.lt2c.satin.matrix.beans.LinkedMatrixElement;
 import fr.tse.lt2c.satin.matrix.beans.DecompositionResult;
 import fr.tse.lt2c.satin.matrix.beans.SortableRectangle;
 import fr.tse.lt2c.satin.matrix.beans.TemporaryRectangle;
-import fr.tse.lt2c.satin.matrix.movie.CreateMovieFromFiles;
+//import fr.tse.lt2c.satin.matrix.movie.CreateMovieFromFiles;
 import fr.tse.lt2c.satin.matrix.utils.RectangleDeque;
 
 /**
@@ -477,9 +477,9 @@ public class WSMRDecomposerWithLogs {
 			}
 
 		} while (!linkedMatrix.isEmpty());
-		if (generateImages) {
-			CreateMovieFromFiles.createMovieFromImages(listImages);
-		}
+//		if (generateImages) {
+//			CreateMovieFromFiles.createMovieFromImages(listImages);
+//		}
 		int ones = binaryMatrix.getNumberOfOnes();
 		temp1 = null;
 		temp2 = null;
@@ -1186,7 +1186,7 @@ public class WSMRDecomposerWithLogs {
 		} else {
 			if (logger.isDebugEnabled())
 				logger.debug("yToCheck " + yToCheck);
-			if (yTotal == 1) {// Point de rédemérrage en fonction de //
+			if (yTotal == 1) {// Point de rï¿½demï¿½rrage en fonction de //
 								// largeur>1 ou
 								// non
 				restart = currentPoint.getNextDown();
