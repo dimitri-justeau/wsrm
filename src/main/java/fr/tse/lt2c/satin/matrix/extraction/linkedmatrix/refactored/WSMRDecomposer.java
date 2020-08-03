@@ -80,7 +80,7 @@ public class WSMRDecomposer {
 	/**
 	 * Internal structure for generateing movie
 	 */
-	private ArrayList<BufferedImage> listImages;
+	public ArrayList<BufferedImage> listImages;
 	/**
 	 * Largest rectangle after {@link #fourthStep()}
 	 */
@@ -1276,7 +1276,7 @@ public class WSMRDecomposer {
 	 * @param currentPoint2
 	 * @param step
 	 */
-	private void generateImage() {
+	public void generateImage() {
 		// Clean the folder
 
 		int pixelsize = 1;
